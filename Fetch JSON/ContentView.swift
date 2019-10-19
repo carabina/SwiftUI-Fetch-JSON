@@ -1,16 +1,27 @@
-//
-//  ContentView.swift
-//  Fetch JSON
-//
-//  Created by Caleb Wells on 10/11/19.
-//  Copyright © 2019 Caleb Wells. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var musicData = NetworkManager()
+    var trackNumber = 0
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            VStack {
+                HButtonsView()
+                
+                List(self.musicData.musicResults.results, id: \.self) { track in
+                    HStack {
+                        Image(track.artworkUrl30)
+                        Text(track.trackName)
+                        
+                        Spacer()
+                        
+                        Image(systemName: "plus")
+                            .foregroundColor(.pink)
+                    }
+                }.navigationBarTitle("Music")
+            }
+        }
     }
 }
 

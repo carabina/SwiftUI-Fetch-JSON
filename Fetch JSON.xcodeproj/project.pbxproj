@@ -13,6 +13,9 @@
 		004416FF235187FB00C116A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004416FE235187FB00C116A5 /* Assets.xcassets */; };
 		00441702235187FB00C116A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00441701235187FB00C116A5 /* Preview Assets.xcassets */; };
 		00441705235187FB00C116A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00441703235187FB00C116A5 /* LaunchScreen.storyboard */; };
+		006BB53F235BA45900A681B5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BB53E235BA45900A681B5 /* NetworkManager.swift */; };
+		006BB541235BA4A200A681B5 /* MusicResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BB540235BA4A200A681B5 /* MusicResults.swift */; };
+		006BB543235BA4E000A681B5 /* HButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BB542235BA4E000A681B5 /* HButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		00441701235187FB00C116A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00441704235187FB00C116A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00441706235187FB00C116A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006BB53E235BA45900A681B5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		006BB540235BA4A200A681B5 /* MusicResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResults.swift; sourceTree = "<group>"; };
+		006BB542235BA4E000A681B5 /* HButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				004416F8235187F900C116A5 /* AppDelegate.swift */,
 				004416FA235187F900C116A5 /* SceneDelegate.swift */,
 				004416FC235187F900C116A5 /* ContentView.swift */,
+				006BB542235BA4E000A681B5 /* HButtonsView.swift */,
+				006BB53E235BA45900A681B5 /* NetworkManager.swift */,
+				006BB540235BA4A200A681B5 /* MusicResults.swift */,
 				004416FE235187FB00C116A5 /* Assets.xcassets */,
 				00441703235187FB00C116A5 /* LaunchScreen.storyboard */,
 				00441706235187FB00C116A5 /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006BB53F235BA45900A681B5 /* NetworkManager.swift in Sources */,
 				004416F9235187F900C116A5 /* AppDelegate.swift in Sources */,
 				004416FB235187F900C116A5 /* SceneDelegate.swift in Sources */,
+				006BB543235BA4E000A681B5 /* HButtonsView.swift in Sources */,
 				004416FD235187F900C116A5 /* ContentView.swift in Sources */,
+				006BB541235BA4A200A681B5 /* MusicResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
